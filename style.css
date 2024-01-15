@@ -105,8 +105,82 @@ main{
 .popular-tour{
     display: flex;
     gap: 100px;
+    margin-bottom: 100px;
+}
+/*--------------------------------- Destination ------------------------------------section---------------------------------------------------------------- */
+.maldives{
+    grid-area: maldives;
+}
+.Indonesia{
+    grid-area: Indonesia;
+}
+.Srilanka{
+    grid-area: Srilanka;
+}
+.North-America{
+    grid-area: North-America;
+}
+.Kashmir{
+    grid-area: Kashmir;
+}
+.Bangladesh{
+    grid-area: Bangladesh;
+}
+.Bandarban{
+    grid-area: Bandarban;
+}
+.Destination{
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+            "maldives maldives Indonesia Indonesia"
+            
+            "Srilanka North-America North-America Kashmir "
+            "Bangladesh Bangladesh Bandarban Bandarban "
+            
+            ;
+}
+.Destination img{
+    width: 100%;
+    height: 100%;
 }
 
+.maldives h1{
+    color: white;
+    position: relative;
+    top: -200px;
+}
+.Indonesia h1{
+    color: white;
+    position: relative;
+    top: -200px;
+}
+.Srilanka h1{
+    color: white;
+    position: relative;
+    top: -200px;
+}
+.North-America h1{
+    color: white;
+    position: relative;
+    top: -200px;
+}
+.Kashmir h1{
+    color: white;
+    position: relative;
+    top: -200px;
+}
+.Bangladesh h1{
+    color: white;
+    position: relative;
+    top: -200px;
+}
+.Bandarban h1{
+    color: white;
+    position: relative;
+    top: -200px;
+}
 
 @media screen and (max-width:600px) {
     header,
@@ -148,6 +222,17 @@ main{
     }
     .popular-tour img{
         width: 100%;
+    }
+    .Destination{
+        grid-template-areas: 
+        "maldives "
+        "Indonesia"
+        "Srilanka"
+        "North-America"
+        "Kashmir"
+        "Bangladesh"
+        "Bandarban"
+        ;
     }
     
 }
