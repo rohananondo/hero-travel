@@ -52,29 +52,30 @@ nav {
     background-repeat: no-repeat;
     width: 1100px;
     height: 500px;
-    
+
     border-radius: 16px;
     text-align: center;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    
-   
+
+
 }
 
-.discription{
+.discription {
     padding: 0 200px;
     color: white;
-    
+
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     border-radius: 16px;
     /* margin-bottom: 100px; */
     padding-top: 100px;
-    
+
 
 
 }
+
 .input-fild {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
@@ -82,9 +83,10 @@ nav {
     width: 600px;
     display: flex;
     justify-content: center;
-    
+
 }
-.input-fild input{
+
+.input-fild input {
     width: 144px;
     height: 38px;
     /* padding: 10px; */
@@ -97,142 +99,211 @@ nav {
 
 /* main section----------------------------------------- */
 
-main{
+main {
     padding: 0 80px;
     margin-bottom: 100px;
 }
 
-.popular-tour{
+.popular-tour {
     display: flex;
     gap: 100px;
     margin-bottom: 100px;
 }
+
 /*--------------------------------- Destination ------------------------------------section---------------------------------------------------------------- */
-.maldives{
+.maldives {
     grid-area: maldives;
 }
-.Indonesia{
+
+.Indonesia {
     grid-area: Indonesia;
 }
-.Srilanka{
+
+.Srilanka {
     grid-area: Srilanka;
 }
-.North-America{
+
+.North-America {
     grid-area: North-America;
 }
-.Kashmir{
+
+.Kashmir {
     grid-area: Kashmir;
 }
-.Bangladesh{
+
+.Bangladesh {
     grid-area: Bangladesh;
 }
-.Bandarban{
+
+.Bandarban {
     grid-area: Bandarban;
 }
-.Destination{
+
+.Destination {
 
     display: grid;
     grid-gap: 20px;
-    grid-template-areas: 
-            "maldives maldives Indonesia Indonesia"
-            
-            "Srilanka North-America North-America Kashmir "
-            "Bangladesh Bangladesh Bandarban Bandarban "
-            
-            ;
+    grid-template-areas:
+        "maldives maldives Indonesia Indonesia"
+
+        "Srilanka North-America North-America Kashmir "
+        "Bangladesh Bangladesh Bandarban Bandarban "
+
+    ;
 }
-.Destination img{
+
+.Destination img {
     width: 100%;
     height: 100%;
 }
 
-.maldives h1{
-    color: white;
-    position: relative;
-    top: -200px;
-}
-.Indonesia h1{
-    color: white;
-    position: relative;
-    top: -200px;
-}
-.Srilanka h1{
-    color: white;
-    position: relative;
-    top: -200px;
-}
-.North-America h1{
-    color: white;
-    position: relative;
-    top: -200px;
-}
-.Kashmir h1{
-    color: white;
-    position: relative;
-    top: -200px;
-}
-.Bangladesh h1{
-    color: white;
-    position: relative;
-    top: -200px;
-}
-.Bandarban h1{
+.maldives h1 {
     color: white;
     position: relative;
     top: -200px;
 }
 
+.Indonesia h1 {
+    color: white;
+    position: relative;
+    top: -200px;
+}
+
+.Srilanka h1 {
+    color: white;
+    position: relative;
+    top: -200px;
+}
+
+.North-America h1 {
+    color: white;
+    position: relative;
+    top: -200px;
+}
+
+.Kashmir h1 {
+    color: white;
+    position: relative;
+    top: -200px;
+}
+
+.Bangladesh h1 {
+    color: white;
+    position: relative;
+    top: -200px;
+}
+
+.Bandarban h1 {
+    color: white;
+    position: relative;
+    top: -200px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.card-item {
+    width: 450px;
+    height: 224px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.card-item-2 {
+    width: 450px;
+    height: 224px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.card-item-3 {
+    width: 450px;
+    height: 224px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 800;
+}
+
 @media screen and (max-width:600px) {
+
     header,
-    main{
+    main {
         padding: 30px;
     }
-    nav
-    {
+
+    nav {
         flex-direction: column;
-       
-       align-items: center;
-        
+
+        align-items: center;
+
     }
-    .nav-bar a{
+
+    .nav-bar a {
         margin-left: 10px;
-        
+
     }
-    .Explore{
+
+    .Explore {
         width: 100%;
-        
+
     }
-    .discription{
+
+    .discription {
         padding: 10px;
         background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) -50%, rgba(19, 19, 24, 0.00) 100%);
         margin-top: 0;
         border-radius: 16px;
-        
+
     }
-    .input-fild{
+
+    .input-fild {
         flex-direction: column;
         align-items: center;
         width: 200px;
     }
-    .input-fild input{
+
+    .input-fild input {
         margin-bottom: 20px;
     }
-    .popular-tour{
+
+    .popular-tour {
         flex-direction: column;
     }
-    .popular-tour img{
+
+    .popular-tour img {
         width: 100%;
     }
-    .Destination{
-        grid-template-areas: 
-        "maldives "
-        "Indonesia"
-        "Srilanka"
-        "North-America"
-        "Kashmir"
-        "Bangladesh"
-        "Bandarban"
+
+    .Destination {
+        grid-template-areas:
+            "maldives "
+            "Indonesia"
+            "Srilanka"
+            "North-America"
+            "Kashmir"
+            "Bangladesh"
+            "Bandarban"
         ;
     }
-    
+
 }
