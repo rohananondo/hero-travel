@@ -288,8 +288,65 @@ main {
 
 }
 
+.cox {
+    display: flex;
+    gap: 50px;
+}
 
+.cox video {
+    width: 100%;
+    border-radius: 16px;
 
+}
+
+.vid h1 {
+    position: relative;
+    bottom: 200px;
+    left: 80px;
+    color: #FFF;
+}
+
+.login {
+    display: flex;
+    gap: 100px;
+}
+
+.input input {
+    padding: 15px 30px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+}
+
+.input {
+    height: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid orange;
+}
+
+.login img {
+    width: 100%;
+}
+
+.save {
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: orangered;
+    position: relative;
+    bottom: 200px;
+    color: #FFF;
+}
+.footer-icon{
+    text-align: center;
+}
+.footer-icon i{
+    margin-left: 20px;
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
 
 @media screen and (max-width:600px) {
 
@@ -360,12 +417,24 @@ main {
     .discount-card {
         width: 250px;
         height: 290px;
-        
+
         left: 50px;
     }
 
     .discount-section img {
         height: 500px;
+    }
+
+    .cox,
+    .login {
+        flex-direction: column;
+    }
+
+    .vid h1 {
+
+        left: 30px;
+        top: -150px;
+
     }
 
 }
