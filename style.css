@@ -50,7 +50,7 @@ nav {
 .Explore {
     background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
-    width: 1100px;
+    width: 1150px;
     height: 500px;
 
     border-radius: 16px;
@@ -435,6 +435,9 @@ footer{
         left: 30px;
         top: -150px;
 
+    }
+    .input{
+        text-align: center;
     }
 
 }
