@@ -239,10 +239,57 @@ main {
     padding-left: 50px;
     padding-right: 20px;
 }
-.card h3{
+
+.card h3 {
     font-size: 24px;
     font-weight: 800;
 }
+
+.review {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 30px;
+}
+
+.review-card {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 16px;
+    transition: transform 1s;
+}
+
+.review-card img {
+    width: 100%;
+}
+
+.review-card:hover {
+    transform: scale(1.2);
+}
+
+.discount-card {
+    width: 479px;
+    height: 250px;
+    padding: 30px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    top: -400px;
+    left: 490px;
+}
+
+.discount-section img {
+    width: 100%;
+
+}
+
+
+
 
 @media screen and (max-width:600px) {
 
@@ -304,6 +351,21 @@ main {
             "Bangladesh"
             "Bandarban"
         ;
+    }
+
+    .review {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .discount-card {
+        width: 250px;
+        height: 290px;
+        
+        left: 50px;
+    }
+
+    .discount-section img {
+        height: 500px;
     }
 
 }
