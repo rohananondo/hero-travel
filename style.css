@@ -342,6 +342,10 @@ main {
     position: relative;
     bottom: 200px;
     color: #FFF;
+    transition: transform 1s;
+}
+.save:hover{
+    transform: scale(1.2);
 }
 .footer-icon{
     text-align: center;
